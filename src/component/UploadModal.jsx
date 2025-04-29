@@ -10,7 +10,7 @@ const UploadModal = ({ onClose, projectId, setUploadedFiles }) => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/api/file', {
+      const response = await axios.post('https://backend-y2sr.onrender.com/api/file', {
         name,
         transcript,
         projectId,

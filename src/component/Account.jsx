@@ -21,7 +21,7 @@ const AccountSettings = () => {
         if (name.trim() === user.name) return; 
         if(!name) return;
         try {
-          const res = await axios.patch(`http://localhost:3000/api/user/${user.id}`, { name } , {withCredentials :  true});          
+          const res = await axios.patch(`https://backend-y2sr.onrender.com/api/user/${user.id}`, { name } , {withCredentials :  true});          
           dispatch(setUser(res.data.user));
           setSuccess(true);
           setTimeout(() => setSuccess(false), 2000);
