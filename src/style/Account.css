@@ -1,0 +1,93 @@
+.account-settings-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .account-settings-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .user-info-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+  }
+  
+  .user-inputs {
+    display: flex;
+    gap: 18px;
+    flex: 1;
+  }
+
+
+  .user-inputs span{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: small;
+    font-weight: 600;
+ }
+  
+  .user-input {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    outline: none;
+    transition: border 0.3s;
+  }
+
+
+  
+  .subscription-section {
+    background: linear-gradient(90deg, #f3e5f5, #e1bee7);
+    padding: 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .subscription-message {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #6a1b9a;
+  }
+  
+  .subscription-message span {
+    font-weight: bold;
+    color: #ab47bc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .upgrade-button {
+    background-color: #ab47bc;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upgrade-button:hover {
+    background-color: #8e24aa;
+  }
+  
+  

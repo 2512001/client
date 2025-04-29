@@ -1,0 +1,87 @@
+.your-files-wrapper {
+  width: 94%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 24px 32px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Inter', sans-serif;
+}
+
+.your-files-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.your-files-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.your-files-header {
+  display: grid;
+  grid-template-columns: 60px 1fr 240px 160px;
+  padding: 10px 15px;
+  background-color: #EDEDED;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+}
+
+.your-files-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 240px 160px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f3f4f6;
+  align-items: center;
+}
+
+.col-no,
+.col-name,
+.col-date,
+.col-action {
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.col-name {
+  font-weight: 500;
+}
+
+.btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+}
+
+.view-btn {
+  color: #374151;
+  background-color: #f3f4f6;
+}
+
+.view-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.delete-btn {
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border-color: #fecaca;
+}
+
+.delete-btn:hover {
+  background-color: #fee2e2;
+}

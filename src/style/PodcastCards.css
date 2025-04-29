@@ -1,0 +1,66 @@
+.podcast-cards {
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-family: Roboto;
+    color: #1D1929;
+
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background: #fff;
+    border: 0.68px solid #eee;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .icon-wrapper {
+    width: 80px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    background: #eee;
+  }
+
+  .icon-wrapper img{
+    width: 100%;
+    height: 100%;
+  }
+  

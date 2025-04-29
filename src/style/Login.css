@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    flex: 8;
+    background: linear-gradient(231.62deg, #C37EFF -26.53%, #3A0B63 117.16%);
+    color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 108vh;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.headline {
+    font-family: 'Circular Std', sans-serif;
+    font-family: 'Montserrat', 'Poppins', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.left-content {
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.subtext {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.wave-effect {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: -60px;
+}
+
+.wave-effect img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+
+.right {
+    flex: 5;
+    background-color: #f8f5f5e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+}
+
+.icon {
+    width: 80.36279296875;
+    height: 70.19952392578125;
+    border-width: 9.27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo-section .icon{
+    width: 20%;
+}
+
+.logo-section img {
+    width: 100%;
+}
+
+.logo-section span {
+    width: 348.88360595703125;
+    height: 98.76484680175781;
+    border-width: 0.77px;
+}
+
+.logo-headline {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25.72px;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.logo-section .title {
+    color: #7E22CE;
+    display: inline;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+
+.highlight {
+    color: #7c3aed;
+    font-weight: 600;
+}
+
+.input {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #DBDBDB;
+    background-color: #ffffff;
+}
+
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    color: #6b7280;
+}
+
+.options a {
+    color: #085FCE;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #7c3aed;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #6b21a8;
+}
+
+.divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #9ca3af;
+}
+
+.google-button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15.52px;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    padding: 0.7rem;
+    border-radius: 7.7px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    gap: 1rem;
+}
+
+.google-button:hover {
+    background-color: #f3f4f6;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #6b7280;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14.67px;
+    line-height: 109.00000000000001%;
+    letter-spacing: 0%;
+
+}
+
+.signup a {
+    color: #005AD5;
+    text-decoration: none;
+    font-size: 0.8rem;
+
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+
+.loginform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

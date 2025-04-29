@@ -1,0 +1,85 @@
+.edit-transcript-container {
+  padding: 24px 32px;
+}
+
+.edit-transcript-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.edit-transcript-header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1C1C1C;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.edit-btn {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-transcript-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.discard-btn {
+  background: transparent;
+  color: #D92D20;
+  border: 1px solid #D92D20;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit-transcript-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(16, 24, 40, 0.1);
+  padding: 32px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 23.63px;
+  line-height: 40.32px;
+  letter-spacing: 0%;
+
+}
+
+.speaker {
+  font-weight: 600;
+  color: #7F56D9;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.transcript-text {
+  font-size: 16px;
+  color: #667085;
+  line-height: 28px;
+  margin-bottom: 24px;
+}

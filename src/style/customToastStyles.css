@@ -1,0 +1,26 @@
+.Toastify__toast {
+    background-color: #000 !important;  
+    color: #fff !important;           
+    font-family: Arial, sans-serif;
+    font-size: 14px;                 
+    border-radius: 8px !important;  
+    padding: 10px 16px;     
+    width: auto;                   
+    max-width: 300px;               
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    min-height: 40px;      
+  }
+  
+  .Toastify__progress-bar {
+    display: none !important; 
+  }
+  
+  .Toastify__toast-container {
+    position: fixed;
+    bottom: 20px;   
+    left: 20px;      
+    right: auto;  
+    max-width: 350px; 
+    z-index: 9999;
+  }
+  

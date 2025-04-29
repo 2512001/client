@@ -1,0 +1,20 @@
+
+.toast-success {
+    background-color: #00FF00; 
+    color: #000;
+  }
+  
+  .toast-error {
+    background-color: #FF0000; 
+    color: #FFF; 
+  }
+  
+  .toast-info {
+    background-color: #00BFFF;
+    color: #000; 
+  }
+  
+  .Toastify__toast-container {
+    font-family: Arial, sans-serif;
+  }
+  
