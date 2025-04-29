@@ -10,7 +10,7 @@ import { getFiles } from '../api/api';
 import { useParams } from 'react-router-dom';
 
 
-const UploadPage = () => {
+const Upload = () => {
   const [showModal, setShowModal] = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState([]);
    const {id} = useParams()
@@ -53,4 +53,4 @@ const UploadPage = () => {
   );
 };
 
-export default UploadPage;
+export default Upload;

@@ -7,7 +7,7 @@ import Account from "./pages/AccountSetting";
 import { useSelector } from "react-redux";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-// import UploadPage from "./pages/Uploadpage";
+import Upload from "./pages/Upload";
 
 function App() {
   const islogin = useSelector((state) => state.userDetails.login);
@@ -18,7 +18,7 @@ function App() {
         <Route path="/login" element={!islogin ? <Login /> : <Navigate to="/" replace />} />
         <Route path="/" element={islogin ? <ProjectCreationFlow /> : <Navigate to="/login" replace />} />
         <Route path="/project" element={islogin ? <ProjectCreationFlow /> : <Navigate to="/login" replace />} />
-        {/* <Route path="/project/:id" element={islogin ? <UploadPage /> : <Navigate to="/login" replace />} /> */}
+        <Route path="/project/:id" element={islogin ? <Upload /> : <Navigate to="/login" replace />} />
         <Route path="/file/:id/Edit" element={islogin ? <Editpage /> : <Navigate to="/login" replace />} />
         <Route path="/account" element={islogin ? <Account /> : <Navigate to="/login" replace />} />
         <Route path="*" element={<Navigate to={islogin ? "/" : "/login"} replace />} />
