@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import '../style/UploadPage.css';
 import Sidebar from '../component/Sidebar';
 import Topbar from '../component/Topbar'; 
-import PodcastCards from '../component/PodcastCards';
-import UploadModal from '../component/UploadModal';
-import UploadArea from '../component/UploadArea';
 import EditTranscript from '../component/EditTranscript';
 
 const Editpage = () => {

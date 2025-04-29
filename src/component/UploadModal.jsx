@@ -14,7 +14,7 @@ const UploadModal = ({ onClose, projectId, setUploadedFiles }) => {
         name,
         transcript,
         projectId,
-      });
+      } , {withCredentials : true});
       setUploadedFiles((prev) => [...prev, response.data.file]);
       toast.success(response.data.message);
       onClose();

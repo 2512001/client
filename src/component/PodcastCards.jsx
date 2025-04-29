@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/PodcastCards.css';
-import { FaRss, FaYoutube, FaUpload } from 'react-icons/fa';
 import image1 from '../assets/image/image 1.png';
 import image2 from '../assets/image/youtube.png';
 import image3 from '../assets/image/ic_round-upload.png';
