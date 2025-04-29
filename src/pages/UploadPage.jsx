@@ -10,7 +10,6 @@ import { getFiles } from '../api/api';
 import { useParams } from 'react-router-dom';
 
 
-
 const UploadPage = () => {
   const [showModal, setShowModal] = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState([]);
